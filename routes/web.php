@@ -19,10 +19,10 @@ Route::group(['prefix' => 'admin'], function(){
     Route::get('news/create', 'Admin\NewsController@add');
 });
 
-Route::group(['prefix' => 'XXX'], function(){
-    Route::get('XXX', 'XXX\AAAController@bbb');
+// Route::group(['prefix' => 'XXX'], function(){
+//     Route::get('XXX', 'XXX\AAAController@bbb');
     
-});
+// });
 
 Route::group(['prefix' => 'admin'], function(){
     Route::get('admin/profile/create', 'Admin\ProfileController@add');
